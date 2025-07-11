@@ -83,31 +83,31 @@ curl -X POST "http://127.0.0.1:8000/complaints/" -H "Content-Type: application/j
 
 1. **Google Sheet для жалоб:**
 
-![Google Sheets](workflow/03_excel.png)
+![Google Sheets](./workflow/03_excel.PNG)
 
 2. **Telegram-бот:**
 
-![Telegram Bot](workflow/04_tg.png)
+![Telegram Bot](./workflow/04_tg.PNG)
 
 3. **HTTP Request Node для запроса жалоб:**
 
-![HTTP Request](workflow/05_get_open.png)
+![HTTP Request](./workflow/05_get_open.PNG)
 
 4. **Switch Node для ветвления по категории:**
 
-![Switch Node](workflow/06_switch.png)
+![Switch Node](./workflow/06_switch.PNG)
 
 5. **Уведомление в Telegram:**
 
-![Отправка в Telegram](workflow/07_tg_send.png)
+![Отправка в Telegram](./workflow/07_tg_send.PNG)
 
 6. **Запись в Google Sheets:**
 
-![Запись в Google Sheets](workflow/08_sheets_send.png)
+![Запись в Google Sheets](./workflow/08_sheets_send.PNG)
 
 7. **Закрытие жалобы через API:**
 
-![Закрытие жалобы](workflow/09_database_finally.png)
+![Закрытие жалобы](./workflow/09_database_finally.PNG)
 
 ---
 
