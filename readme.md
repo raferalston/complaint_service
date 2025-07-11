@@ -68,7 +68,7 @@ curl -X POST "http://127.0.0.1:8000/complaints/" -H "Content-Type: application/j
 ```
 
 📷 Результат в базе данных:
-![База данных](workflow/02_database.png)
+![База данных](./workflow/02_database.PNG)
 
 ---
 
